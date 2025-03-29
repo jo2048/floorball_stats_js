@@ -5,8 +5,8 @@ const BASE_URLS = {
 }
 
 class Config {
-    static country = "BELGIUM"
-    // static country = "FRANCE"
+    // static country = "BELGIUM"
+    static country = "FRANCE"
 
     static getBaseUrl() {
         return BASE_URLS[this.country]
